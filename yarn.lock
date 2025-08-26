@@ -1238,12 +1238,19 @@
     split-array-stream "^2.0.0"
     stream-events "^1.0.5"
 
-"@google-cloud/kms@^3.0.1", "@google-cloud/kms@^3.6.0":
+"@google-cloud/kms@^3.0.1":
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/@google-cloud/kms/-/kms-3.6.0.tgz#ca82200a68422bc395ddcac24314c248e679bcb8"
   integrity sha512-mWh95AN4ghngN+vNkoPDxCelZMhqPFRl7eofkV9xhRbdyzkBT3BOQCNqVuVxpqSWOwz/PmP7OhkNdRV/jCgkmQ==
   dependencies:
     google-gax "^3.5.8"
+
+"@google-cloud/kms@^4.0.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/kms/-/kms-4.5.0.tgz#c3336a13e54559cbe40e42ab803cc6cefc2aa3c7"
+  integrity sha512-i2vC0DI7bdfEhQszqASTw0KVvbB7HsO2CwTBod423NawAu7FWi+gVVa7NLfXVNGJaZZayFfci2Hu+om/HmyEjQ==
+  dependencies:
+    google-gax "^4.0.3"
 
 "@google-cloud/logging-winston@^4.1.1":
   version "4.2.2"
